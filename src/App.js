@@ -143,15 +143,17 @@ function App() {
 
       <section class='bg-brand-100'>
         <div class='py-14 md:py-32 w-10/12 md:w-8/12 mx-auto flex flex-col md:flex-row items-center'>
-          <div class='flex-1'>
+          <div class='flex-2 md:w-3/4'>
             <h4 class='font-albra text-4xl md:text-6xl  text-center  text-brand-600 tracking-tighter md:tracking-tight md:text-left'>Don't want to start a <br/> newsletter? </h4>
             <h6 class='text-lg md:text-xl text-center font-medium text-brand-600 md:mt-6 tracking-tight md:text-left md:mb-0 mt-4 mb-4'>Don't worry. Use noteletter like <br/> thousands of others to save <br/> bookmarks for later</h6>
           </div>
-          <div class='flex-1 flex justify-center md:justify-end'>
+          <div class='flex-1 md:w-1/4 flex justify-center md:justify-end'>
             <img src={reminder}/>
           </div>
         </div>
       </section>
+
+      
       <section class='bg-brand-300 relative border-b-8 border-brand-500 flex justify-center'>
         <div class=' absolute bg-white p-8 rounded-full transform -translate-y-1/2 shadow-2xl scale-50 md:scale-100'>
           <img src={logo}/>
