@@ -26,7 +26,7 @@ module.exports = {
       fontFamily: {
         'playfair': ['Playfair Display'],
         'albra' :  ['Albra'],
-        'coromorant' : ['Cormorant Garamond']
+        'coromorant' : ['Cormorant Garamond'],
        }
     },
   },

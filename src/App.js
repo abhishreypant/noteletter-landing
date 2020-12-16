@@ -78,8 +78,8 @@ function App() {
 
       <section class='min-h-screen bg-gray-900 py-28'>
         <div class='w-10/12 md:w-8/12 mx-auto'>
-          <h2 class='text-sm text-center leading-snug capitalize font-light text-white tracking-normal md:leading-loose md:text-2xl md:font-semibold font-playfair'>How It Works?</h2>
-          <h2 class='text-2xl text-center leading-snug capitalize font-light text-brand-100 tracking-tight md:leading-snug md:text-5xl md:font-semibold font-playfair'>send your followers your favourite <span class='md:block'>bookmarks of the week</span></h2>
+          <h2 class='font-playfair text-xl md:text-3xl mb-4 text-white tracking-tighter md:tracking-tight text-center font-medium md:leading-tight'>How It Works?</h2>
+          <h2 class='font-playfair text-4xl md:text-5xl text-brand-100 tracking-tighter md:tracking-tight text-center font-medium md:leading-tight'>Send your followers your favourite <span class='md:block'>bookmarks of the week</span></h2>
 
           <div class='w-11/12 my-6 text-center md:text-left mx-auto md:bg-gray-800 md:mt-16 md:p-16 text-white flex flex-col justify-start items-center md:flex-row md:justify-between md:py-16 md:px-24'>
             <div>
@@ -129,7 +129,7 @@ function App() {
           <div class='flex justify-end'>
             <i class="lni lni-cross-circle w-12 flex items-center justify-center h-12 text-brand-600 rounded-full text-2xl md:text-3xl md:mb-0 mb-6"></i>
           </div>
-          <h1 class='text-3xl md:text-5xl font-playfair text-brand-600 text-center capitalize md:leading-snug'>you are 119 of 400 in <span class='md:block'>the line. 🎉</span></h1>
+          <h1 class='font-playfair text-4xl md:text-5xl text-brand-600 tracking-tighter md:tracking-tight text-center font-medium md:leading-tight'>You are 119 of 400 in <span class='md:block'>the line. 🎉</span></h1>
           <form class='flex flex-col md:flex-row justify-center items-center my-6 md:my-12'>
             <input type='text' disabled value='https://www.noteletter.io/referall?=48' class='w-full md:w-8/12 p-4 bg-gray-100'/>
             <input type='text' disabled value='Copy Code' class='w-full md:w-4/12 p-4 bg-brand-500 text-white text-center'/>
@@ -137,7 +137,7 @@ function App() {
         </div>
 
         <div class='py-14 md:py-32 w-10/12 md:w-6/12 mx-auto'>
-          <h1 class='text-3xl md:text-5xl font-playfair text-brand-600 text-center'>Join The Exclusive Tribe Of Beta <span class='md:block'>Testers Of Noteletter.</span></h1>
+          <h1 class='font-playfair text-4xl md:text-5xl text-brand-600 tracking-tighter md:tracking-tight text-center font-medium md:leading-tight'>Join the exclusive tribe of beta <span class='md:block'>testers of noteletter.</span></h1>
           <img src={beta} class='my-8 md:my-24 block mx-auto w-10/12 md:w-5/12'></img>
           <form class='flex flex-col md:flex-row items-center mx-auto justify-center'>
             <input class='w-full md:w-8/12 px-6 py-3 md:py-6 md:px-12 bg-white rounded-sm m-1.5 cursor-pointer hover:opacity-90' type='text' placeholder='example@gmail.com'></input>
@@ -149,7 +149,7 @@ function App() {
       <section class='bg-brand-100'>
         <div class='py-14 md:py-32 w-10/12 md:w-6/12 mx-auto flex flex-col md:flex-row items-center'>
           <div class='flex-2 md:w-3/4'>
-            <h4 class='font-playfair text-4xl md:text-5xl  text-center  text-brand-600 tracking-tighter md:tracking-tight md:text-left'>Don't want to start a <br/> newsletter? </h4>
+            <h4 class='font-playfair text-4xl md:text-5xl text-brand-600 tracking-tighter md:tracking-tight text-center font-medium md:leading-tight md:text-left'>Don't want to start a <br/> newsletter? </h4>
             <h6 class='text-lg md:text-xl text-center font-regular text-brand-600 md:mt-6 tracking-normal md:text-left md:mb-0 mt-4 mb-4'>Don't worry. Use noteletter like <br/> thousands of others to save <br/> bookmarks for later</h6>
           </div>
           <div class='flex-1 md:w-1/4 flex justify-center md:justify-end'>
@@ -164,7 +164,7 @@ function App() {
           <img src={logo}/>
         </div>
         <div class='py-14 md:py-24 w-10/12 md:w-8/12 mx-auto'>
-            <h4 class='font-playfair text-4xl font-medium md:leading-tight md:text-5xl text-center text-brand-600 tracking-tighter md:tracking-tight capitalize '>Get started with <br/> Noteletter for free now</h4>
+            <h4 class='font-playfair text-4xl md:text-5xl text-brand-600 tracking-tighter md:tracking-tight text-center font-medium md:leading-tight'>Get started with <br/> Noteletter for free now</h4>
             <form class='flex flex-col md:flex-row md:justify-center my-12'>
               <input type='text' placeholder='example@gmail.com' class='md:mx-1 text-center px-6 py-2.5 bg-white text-brand-600 cursor-pointer hover:opacity-90'></input>
               <input type='submit' value='Create A free Acount Now' class='md:mx-1 px-6 py-2.5 bg-brand-500 text-white cursor-pointer hover:opacity-90'></input>
