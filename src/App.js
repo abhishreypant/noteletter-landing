@@ -77,49 +77,46 @@ function App() {
       </section>
 
       <section class='min-h-screen bg-gray-900 py-28'>
-        <div class='w-10/12 md:w-7/12 mx-auto'>
+        <div class='w-11/12 md:w-8/12 mx-auto'>
           <h2 class='font-playfair text-xl md:text-3xl mb-4 text-white tracking-tighter md:tracking-tight text-center font-medium md:leading-tight'>How It Works?</h2>
           <h2 class='font-playfair text-4xl md:text-5xl text-brand-100 tracking-tighter md:tracking-tight text-center font-medium md:leading-tight'>Send your followers your favourite <span class='md:block'>bookmarks of the week</span></h2>
 
-          <div class='w-11/12 my-6 text-center md:text-left mx-auto md:bg-gray-800 md:mt-16 text-white flex flex-col justify-start items-stretch md:flex-row md:justify-between'>
-            <div class='my-6 md:my-0 md:flex flex-col justify-center md:px-16 '>
+          <div class='w-11/12 my-6 text-center md:text-left mx-auto md:bg-gray-800 md:mt-24 text-white flex flex-col justify-start items-center md:flex-row md:justify-between md:py-8 md:px-16'>
+            <div class='mb-6 md:mb-0'>
                <h4 class='text-lg md:text-2xl'>
                   <i class="lni lni-layers text-4xl my-4"></i><br/>
-                  <span class='md:block'>Collect your </span>
-                  <span class='md:block'>valuable bookmarks </span>
-                  <span class='md:block'>into the noteletter </span>
-                  <span class='md:block'>dashboard. </span>
+                  <span class='md:block'>Collect your valuable </span>
+                  <span class='md:block'>bookmarks into the noteletter</span>
+                  <span class='md:block'>dashboard.</span>
+                  <span class='md:block'> </span>
                 </h4>
             </div>
-            <img src={ss1} class='md:w-2/4 shadow-xl md:shadow-none block'/>
+            <img src={ss1} class='md:w-5/12 shadow-xl md:shadow-2xl block scaled-135'/>
           </div>
 
-          <div class='w-11/12 my-6 text-center md:text-left mx-auto md:bg-gray-800 md:mt-16 text-white flex flex-col justify-start items-stretch md:flex-row md:justify-between'>
-            <div class='my-6 md:my-0 md:flex flex-col justify-center md:px-16 '>
+          <div class='w-11/12 my-6 text-center md:text-left mx-auto md:bg-gray-800 md:mt-24 text-white flex flex-col justify-start items-center md:flex-row md:justify-between md:py-8 md:px-16'>
+            <div class='mb-6 md:mb-0'>
                 <h4 class='text-lg md:text-2xl'>
                   <i class="lni lni-checkmark-circle text-4xl my-4"></i><br/>
-                  <span class='md:block'>Select Your   </span>
-                  <span class='md:block'>respective week’s  </span>
-                  <span class='md:block'>bookmarks you want </span>
-                  <span class='md:block'>to send to your</span>
-                  <span class='md:block'> subscirbers</span>
+                  <span class='md:block'>Select Your respective </span>
+                  <span class='md:block'>week’s bookmarks you want to </span>
+                  <span class='md:block'>send to your subscirbers</span>
+                  <span class='md:block'> </span>
                 </h4>
             </div>
-            <img src={ss2} class='md:w-2/4 shadow-xl md:shadow-none block'/>
+            <img src={ss2} class='md:w-5/12 shadow-xl md:shadow-2xl block scaled-135'/>
           </div>
 
-          <div class='w-11/12 my-6 text-center md:text-left mx-auto md:bg-gray-800 md:mt-16 text-white flex flex-col justify-start items-stretch md:flex-row md:justify-between'>
-            <div class='my-6 md:my-0 md:flex flex-col justify-center md:px-16 '>
+          <div class='w-11/12 my-6 text-center md:text-left mx-auto md:bg-gray-800 md:mt-24 text-white flex flex-col justify-start items-center md:flex-row md:justify-between md:py-8 md:px-16'>
+            <div class='mb-6 md:mb-0'>
                 <h4 class='text-lg md:text-2xl'>
                   <i class="lni lni-chevron-right-circle text-4xl my-4"></i><br/>
-                  <span class='md:block'>Curate an </span>
-                  <span class='md:block'>awesome email, </span>
-                  <span class='md:block'>send it to your followers, </span>
-                  <span class='md:block'>Watch Your Followers</span>
-                  <span class='md:block'>Grow !</span>
+                  <span class='md:block'>Curate an awesome email,</span>
+                  <span class='md:block'>send it to your followers, Watch</span>
+                  <span class='md:block'>Your Followers Grow !</span>
                 </h4>
             </div>
-            <img src={ss3} class='md:w-2/4 shadow-xl md:shadow-none block'/>
+            <img src={ss3} class='md:w-5/12 shadow-xl md:shadow-2xl block scaled-135'/>
           </div>
         </div>
       </section>
